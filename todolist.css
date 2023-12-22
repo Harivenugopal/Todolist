@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: #0d095b;
+    color: white;
+}
+
+.heading {
+    display: flex;
+    text-align: center;
+    text-decoration: underline; /* Add underline to the heading */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parentdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.todo-grid,
+.todo-input-grid {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
+/* Add your other styles for .name-input, .js-due-date-input, .add-todo-button, .delete-todo-button, etc. */
+
+.name-input,
+.js-due-date-input,
+.add-todo-button,
+.delete-todo-button {
+    font-size: 15px;
+    padding: 8px;
+}
+
+.name-input {
+    padding: 10px;
+}
+
+.add-todo-button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-todo-button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
